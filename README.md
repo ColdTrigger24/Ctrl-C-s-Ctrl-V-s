@@ -17,8 +17,9 @@
 
 	(c) Tools utilised and Performance metric
 
-2. Service station and Electric Dock Chargers Locator⚙️⚡
-        (a) Website Layout
+2. [Service station and Electric Dock Chargers Locator⚙️⚡](#Service-station-and-Electric-Dock-Chargers-Locator)
+
+      (a) Website Layout
    
 	(b) Map services used
 
@@ -281,6 +282,8 @@ It comprises two main sections:
 
 https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/5343b118-fb8a-4226-8219-2da1583f3242
 
+<a name="Service-station-and-Electric-Dock-Chargers-Locator"></a>
+#Service station and Electric Dock Chargers Locator⚙️⚡
 ## Website Layout:
 **Web – App:** 
 
@@ -322,9 +325,33 @@ https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/5343b118-fb8
 
 + If login is successful the web-app proceeds to home page where the user info can is displayed and all the features o such as updating the user info, Parking reservation, Charging dock locator, etc.. are displayed along with the option to log out. 
 
-+ The update option lets the user update their info appropriately, the method used is similar to that of registration, here the along with all the process of registration, old password is also checked for further protection. 
++ The update option lets the user update their info appropriately, the method used is similar to that of registration, here the along with all the process of registration, old password is also checked for further protection.
+
 
 + The log out option closes all connections and clears the buffer storing the user info and it redirects back to the login page. 
 
 + All the other options are used for navigation.
+
+## Map services used:
++ In the background, a sturdy PHP class established a secure connection to a MySQL database, ensuring seamless data transactions. Meanwhile, a JavaScript script brought life to the map interface, leveraging the powerful Google Maps API. It meticulously plotted each charging station’s location on the map, creating an interactive experience for users. 
+
++ As users explored the map, JavaScript magic ensued. Addresses were transformed into precise latitude and longitude coordinates through geocoding, seamlessly integrating with the backend. With a click, users could update a charging station’s coordinates, triggering a swift AJAX request to the PHP backend, where the database was promptly updated. 
+
++ The frontend HTML file orchestrated the symphony, orchestrating the display of charging station's data fetched from the backend. JSON-encoded snippets of information danced within the HTML, awaiting their cue to populate the map with markers and informative windows. 
+
++ Together, this harmonious ensemble of PHP and JavaScript wove a tale of seamless integration, where data flowed effortlessly between the frontend and backend. From the depths of the database to the heights of the map interface, the story of charging stations unfolded, inviting users on a journey of exploration and discovery. 
+
+ 
+
++ The esmapdb.php file establishes a connection to a MySQL database, likely named "chargingstation." It defines the DbConnect class with credentials to connect to the database. 
+
++ The esmapeducation.php file creates an education class to handle charging station information. It has properties for various details like ID, name, address, type, latitude, and longitude. It also has a tableName property set to "stations," indicating the table where charging station data resides. 
+
++ The esmapgooglemap.js file handles the map functionalities. interaction and it iterates through this data and creates markers for each charging station on the map. It also creates an info window that displays the charging station name when a marker is hovered over. 
+
++ The esmapaction.php file serves as an intermediary between the JavaScript frontend and PHP backend, this script receives AJAX requests from the JavaScript functions to update charging station coordinates in the database. It retrieves latitude, longitude, and charging station ID from the AJAX request and executes an SQL UPDATE query to modify the corresponding charging station's location. 
+
++ The esmapindex.php file acts as the main HTML file, this script renders the user interface. It fetches charging station data from the database using PHP, encodes it as JSON, and embeds it within the HTML. It also includes the necessary CSS and JavaScript files for styling and functionality. The Google Maps API is loaded asynchronously, and upon completion, it invokes the loadMap() function defined in esmapgooglemap.js to initialize the map. 
+
++ In essence, this well-rehearsed ensemble of PHP and JavaScript files played out a symphony of seamless integration. Data flowed effortlessly between the frontend and backend, conducted by the HTML file. From the depths of the database, where the esmapeducation.php class ensured data integrity, to the heights of the map interface, where the esmapgooglemap.js script orchestrated the visual experience, the story of charging stations unfolded, inviting users on a journey of exploration and discovery. The esmapaction.php file acted as the responsive counterpart, ensuring any updates initiated by the user were reflected in the database. Together, they weaved a narrative of geographic discovery, empowering users to explore the charging station like never before.
 

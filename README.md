@@ -244,6 +244,7 @@ It comprises two main sections:
 + This function checks if there are cars in the queue. 
 
 + If there are cars in the queue, it decrements the queueitems count, updates the queue visually, and parks the car in the specified slot using the carenter() function. 
+
 ![Screenshot 2024-04-02 142518](https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/4f9b7515-f14d-469a-95a5-da24d87dedc6)
 
 **CAR EXIT FUNCTION:** 

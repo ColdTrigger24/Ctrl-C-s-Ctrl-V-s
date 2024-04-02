@@ -283,6 +283,21 @@ It comprises two main sections:
 
 https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/5343b118-fb8a-4226-8219-2da1583f3242
 
+## Performance Metric:
++ By comparing the Parking space counter code for different footages, the plot of different runtime is given as a box plot. The footages are processed by Intel VPL (Video Processing Library). This is checked for live video footages of parking spaces.
+
+![WhatsApp Image 2024-04-02 at 7 42 51 PM](https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/888edeb9-ba6b-4ca7-99ea-aea621e538f6)
+
++ This box plot denotes the maximum, minimum and the mean time of the collected runtime. the mean run time is about 0.5 milli second with highest value reaching about 1 milli-second.
+
++ Whereas by running the code though traditional video processing tools, the run time is a little higher, having a mean of 0.74 milli seconds with a maximum boundary of 1.51 milli seconds
+
+![WhatsApp Image 2024-04-02 at 7 52 26 PM](https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/1a6bfa50-6275-437f-809d-e45f2b1ed853)
+
+Since the code given is for pre-recorded footages (considered for prototype), the code utilising the Intel VPL tool is not included. The program will be included along with the layout if parking reservation system by incorporating real time parking space footages.
+
+
+
 <a name="Service-station-and-Electric-Dock-Chargers-Locator"></a>
 # Service station and Electric Dock Chargers Locator⚙️⚡
 ## Website Layout:
@@ -369,3 +384,7 @@ https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/5343b118-fb8
 ![Screenshot 2024-04-02 194558](https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/bb162238-ccb6-4144-840b-a1de972b8211)
 
 
+
+
+
+![WhatsApp Image 2024-04-02 at 7 52 26 PM](https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/1a6bfa50-6275-437f-809d-e45f2b1ed853)

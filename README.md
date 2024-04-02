@@ -59,4 +59,7 @@ The image depicts the output of the Parking space picker code. The rectangles ar
 
 + The Gaussian blur is a type of image-blurring filter that uses a Gaussian function for calculating the transformation to apply to each pixel in the image. 
 
-+ The Median blur operation is similar to the other averaging methods. Here, the central element of the image is replaced by the median of all the pixels in the kernel area. This operation processes the edges while removing the noise. 
++ The Median blur operation is similar to the other averaging methods. Here, the central element of the image is replaced by the median of all the pixels in the kernel area. This operation processes the edges while removing the noise.
+
+https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/blob/main/materials/parkingvid.mp4
+

@@ -355,3 +355,4 @@ https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/5343b118-fb8
 
 + In essence, this well-rehearsed ensemble of PHP and JavaScript files played out a symphony of seamless integration. Data flowed effortlessly between the frontend and backend, conducted by the HTML file. From the depths of the database, where the esmapeducation.php class ensured data integrity, to the heights of the map interface, where the esmapgooglemap.js script orchestrated the visual experience, the story of charging stations unfolded, inviting users on a journey of exploration and discovery. The esmapaction.php file acted as the responsive counterpart, ensuring any updates initiated by the user were reflected in the database. Together, they weaved a narrative of geographic discovery, empowering users to explore the charging station like never before.
 
+

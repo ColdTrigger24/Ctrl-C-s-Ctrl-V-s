@@ -8,9 +8,9 @@
 # Smart Car-App: Car Parking Reservation Facility and Service provider Locator
 ✨🚘🚔 A prototype of a parking reservation app that implements smart booking of parking slots and other features like identifying car service stations and charging dock locators for electric cars ✨🚘🚔
 
-# Demonstartion of the project
+# Contents
+1. 
 
-[Click here to watch the demo video]
 
 # Features of the project:
 1. [Home Page]

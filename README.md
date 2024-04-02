@@ -39,8 +39,24 @@ From a parking space layout, the spaces available for parking are selected. The 
 
 + If a parking space is incorrectly selected, the rectangle can be deselected by clicking it by Right Mouse Button.     
 
-+ The selected parking spaces are loaded into a list as coordinates into a “.txt” file named “CarParkPos.txt” in binary reading mode. From the pickle library, the function pickle.load() deserializes the data into a Python list.  
-
++ The selected parking spaces are loaded into a list as coordinates into a “.txt” file named “CarParkPos.txt” in binary reading mode. From the pickle library, the function pickle.load() deserializes the data into a Python list.
+  
 + The program keeps running in a loop. This loop continuously displays the car park image (carParkImg.png) and handles mouse interactions on the image window to continuously list and store the spaces.
 
-![generated image](
+![generated image](materials/parkingsysimg1.jpeg)
+
+The image depicts the output of the Parking space picker code. The rectangles are placed in the parking space by selecting them through Mouse clicks. 
+
+## Parking Space counter:
+
++ The video processing is done from a pre-recorded footage of a parking space layout. OpenCV and CVZone libraries are used for image and video processing.  
+
++ From the image generated from the Parking Space picker code, this code identifies free parking spaces by measuring the intensities of the selected parking spaces. From all the spaces, the median of the intensities of the spaces is taken as the threshold to classify them into free and occupied.  
+
++ The code performs grayscale conversion, applies gaussian and median blur for noise reduction of the image and adaptive thresholding for foreground and background distinction. The program waits for 10 milli seconds before processing the next frame. 
+
++ Converting each frame to grayscale significantly reduces the amount of data processed, leading to faster processing speeds and potentially enabling real-time video analysis 
+
++ The Gaussian blur is a type of image-blurring filter that uses a Gaussian function for calculating the transformation to apply to each pixel in the image. 
+
++ The Median blur operation is similar to the other averaging methods. Here, the central element of the image is replaced by the median of all the pixels in the kernel area. This operation processes the edges while removing the noise. 

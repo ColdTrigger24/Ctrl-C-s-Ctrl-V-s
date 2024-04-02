@@ -61,5 +61,13 @@ The image depicts the output of the Parking space picker code. The rectangles ar
 
 + The Median blur operation is similar to the other averaging methods. Here, the central element of the image is replaced by the median of all the pixels in the kernel area. This operation processes the edges while removing the noise.
 
-https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/blob/main/materials/parkingvid.mp4
+(https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/26574e98-a11c-43ba-bc64-973c56c3f96a)
 
++ The parking spaces are classified into free and occupied and are denoted by green and red rectangles respectively. The intensities of each space in displayed in the bottom left of each rectangle. For the selected video, the threshold intensity is around 900.  
+
++ The code is set to provide an output indicating the number of free parking spaces in a layout. It updates the count of the free parking spaces instantaneously.  
+
+
+ 
+
++ Since the given code is for the prototype, for the original model will perform video processing based on live footages of parking spaces in real-time. From that live video processing, the output will be sent to a layout designed for reservation. The layout indicates the user about the cars that are present in the parking space by updating the layout using the output of the car parking counter code. 

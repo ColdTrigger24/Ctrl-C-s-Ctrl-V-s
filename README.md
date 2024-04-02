@@ -385,6 +385,3 @@ Since the code given is for pre-recorded footages (considered for prototype), th
 
 
 
-
-
-![WhatsApp Image 2024-04-02 at 7 52 26 PM](https://github.com/ColdTrigger24/Ctrl-C-s-Ctrl-V-s/assets/159794729/1a6bfa50-6275-437f-809d-e45f2b1ed853)
